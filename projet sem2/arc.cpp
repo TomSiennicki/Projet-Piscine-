@@ -15,7 +15,7 @@ Arete::Arete(int ida, Sommet*s1, Sommet*s2)
 
 void Arete::ecrire_ar()
 {
-    std::cout<<"arete : "<<m_ida<<" "<<m_s1->getId()<<" "<<m_s2->getId()<<std::endl;
+    std::cout<<"arete : "<<m_ida<<" "<<m_s1->getId()<<" "<<m_s2->getId()<<" "<<m_p<<std::endl;
 }
 
 void Arete::afficher_ar(Svgfile&svg)
@@ -25,5 +25,5 @@ void Arete::afficher_ar(Svgfile&svg)
 
 void Arete::setP(float p)
 {
-    m_p == p;
+    m_p = p;
 }

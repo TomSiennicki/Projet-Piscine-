@@ -43,10 +43,12 @@ void Graphe::ponderation(std::string nom_fich)
     int id,t;
     float p;
     std::ifstream fichier (nom_fich);
-    fichier>>t
+    fichier>>t;
     for(int i=0; i<t; i++)
     {
-        m_aretes[id]->setP(p);
+        fichier>>id;
+        fichier>>p;
+        m_aretes[i]->setP(p);
     }
 }
 
