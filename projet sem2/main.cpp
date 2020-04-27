@@ -4,9 +4,6 @@
 #include "graphe.h"
 #include <string>
 
-/// test veronica
-/// fkhfkdoegre
-/// eiogjirgjtr
 
 
 void menu(Graphe G)
