@@ -19,6 +19,8 @@ class Graphe
       void ecrire_som();
       void afficher_gr(Svgfile&svg);
       void ponderation(std::string nom_fich);
+      int getOrdre();
+      void creaSuccSommet();
 };
 
 #endif // GRAPHE_H_INCLUDED

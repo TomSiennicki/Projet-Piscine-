@@ -78,3 +78,34 @@ void Graphe::afficher_gr(Svgfile&svg)
         m_aretes[k]->afficher_ar(svg);
     }
 }
+
+
+int Graphe::getOrdre()
+{
+    return m_ordre;
+}
+
+void Graphe::creaSuccSommet()
+{
+
+    for(int i=0; i<m_sommets.size(); i++)
+    {
+        for(int j=0; i<m_aretes.size(); j++)
+        {
+            /// comparer si dans l'arête en s1 on a le même sommet[i]
+            if(m_aretes[j]->getS1()->getNom() == m_sommets[i]->getNom())
+            {
+                // on ajoute le sommet2 dans le vec de successeurs
+                m_sommets[i]->setSucc(m_aretes[j]->getS2());
+            }
+
+            /// comparer si dans l'arête en s1 on a le même sommet[i]
+            if(m_aretes[j]->getS2()->getNom() == m_sommets[i]->getNom())
+            {
+                // on ajoute le sommet1 dans le vec de successeurs
+                m_sommets[i]->setSucc(m_aretes[j]->getS1());
+            }
+        }
+    }
+
+}

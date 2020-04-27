@@ -4,8 +4,6 @@
 #include "graphe.h"
 #include <string>
 
-
-
 void menu(Graphe G)
 {
     int a,b;

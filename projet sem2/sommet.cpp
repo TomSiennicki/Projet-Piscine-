@@ -36,3 +36,13 @@ void Sommet::afficher_som(Svgfile&svg)
     svg.addCircle(m_x*100, m_y*100, 1, 1, "black");
 }
 
+
+char Sommet::getNom()
+{
+    return m_nom;
+}
+
+void Sommet::setSucc(Sommet* succ)
+{
+    m_succ.push_back(succ);
+}

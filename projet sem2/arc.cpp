@@ -27,3 +27,14 @@ void Arete::setP(float p)
 {
     m_p = p;
 }
+
+
+Sommet* Arete::getS1()
+{
+    return m_s1;
+}
+
+Sommet* Arete::getS2()
+{
+    return m_s2;
+}

@@ -10,6 +10,8 @@ class Sommet
         int m_id;
         char m_nom;
         int m_x, m_y;
+        std::vector <Sommet*> m_succ;
+
     public :
         Sommet(int id, char nom, int x, int y);
         void ecrire_som();
@@ -17,6 +19,10 @@ class Sommet
         void afficher_som(Svgfile&svg);
         int getx();
         int gety();
+        char getNom();
+        void setSucc(Sommet* succ);
+       // void degre();
+        // void degreNormal();
         /*int getDist();
         Sommet* getPere();
         void setDist(int dist);
