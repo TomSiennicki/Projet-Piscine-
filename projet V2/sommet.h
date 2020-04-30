@@ -27,6 +27,7 @@ class Sommet
         int getx();
         int gety();
         char getNom();
+        std::map<Sommet*, float> getSucc();
         void setSucc(Sommet* succ, float poids);
         int degre();
         void setDegreNormal(int degN);

@@ -6,7 +6,6 @@
 #include <algorithm>
 #include "arc.h"
 #include <vector>
-#include <math.h>
 
 Graphe::Graphe()
 {
@@ -278,3 +277,77 @@ void Graphe::sauvegarde()
     }
 }
 
+/// CITER LA SOURCE
+
+// utility function for printing
+// the found path in graph
+void Graphe::printpath(std::vector<Sommet>& path)
+{
+    for (auto sommet: path)
+    {
+        std::cout << sommet.getNom() << " ";
+    }
+    std::cout << std::endl;
+
+}
+
+// utility function to check if current
+// vertex is already present in path
+bool Graphe::isNotVisited(int id, std::vector<Sommet>& path)
+{
+    for (auto sommet: path)
+        if (sommet.getId() == id)
+            return false;
+
+    return true;
+}
+
+// utility function for finding paths in graph
+// from source to destination
+void Graphe::findpaths(Sommet src, Sommet dst)
+{
+    // create a queue which stores
+    // the paths
+    std::queue <std::vector<Sommet>> q;
+
+    // path vector to store the current path
+    std::vector<Sommet> path;
+    path.push_back(src);
+    q.push(path);
+
+    while (!q.empty()) {
+        path = q.front();
+        q.pop();
+        Sommet last = path[path.size() - 1];
+
+        // if last vertex is the desired destination
+        // then print the path
+        if (last.getId() == dst.getId())
+            printpath(path);
+
+        // traverse to all the nodes connected to
+        // current vertex and push new path to queue
+        for(auto s : last.getSucc())
+        {
+            if(isNotVisited((s.first)->getId(), path))
+               {
+                   std::vector<Sommet> newpath(path);
+                   newpath.push_back(*(s.first));
+                   q.push(newpath);
+               }
+
+        }
+       /* for (int i = 0; i < g[last].size(); i++) {
+            if (isNotVisited(g[last][i], path)) {
+                vector<int> newpath(path);
+                newpath.push_back(g[last][i]);
+                q.push(newpath);
+            }
+        } */
+    }
+}
+
+void Graphe::affich()
+{
+    findpaths(*m_sommets[0], *m_sommets[3]);
+}

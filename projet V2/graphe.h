@@ -7,6 +7,7 @@
 #include "arc.h"
 #include "svgfile.h"
 #include <math.h>
+#include <queue>
 
 class Graphe
 {
@@ -36,6 +37,10 @@ public :
     void centreProxNorm();
     bool verifPoids();
     void sauvegarde();
+    void printpath(std::vector<Sommet>& path);
+    bool isNotVisited(int id, std::vector<Sommet>& path);
+    void findpaths(Sommet src, Sommet dst);
+    void affich();
 
 };
 

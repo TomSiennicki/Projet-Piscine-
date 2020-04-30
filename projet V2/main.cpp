@@ -9,7 +9,7 @@ void menu()
 {
 
     std::string fichier;
-    std::string nom_fich="graphe.txt";
+    std::string nom_fich="grapheT2.txt";
     Graphe G(nom_fich);
     G.ecrire_som();
     /*Svgfile svg;#include <math.h>
@@ -17,6 +17,7 @@ void menu()
     G.afficher_gr(svg);*/
     ///G.creaSuccSommet();#include <math.h>
     int choix, choix2, choix3;
+
 
     /*                              PONDERATION             */
 
@@ -46,6 +47,7 @@ void menu()
                 G.ponderation("graphe1.txt");
                 G.creaSuccSommet();
                 G.ecrire_som();
+                G.affich();
             }
         }
 

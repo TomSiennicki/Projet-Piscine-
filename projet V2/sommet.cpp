@@ -155,3 +155,8 @@ float Sommet::getProxNorm()
 {
     return m_proxNorm;
 }
+
+std::map<Sommet*, float> Sommet::getSucc()
+{
+    return m_succ;
+}
