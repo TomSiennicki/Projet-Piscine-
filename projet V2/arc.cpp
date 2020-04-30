@@ -28,6 +28,10 @@ void Arete::setP(float p)
     m_p = p;
 }
 
+float Arete::getP()
+{
+    return m_p;
+}
 
 Sommet* Arete::getS1()
 {

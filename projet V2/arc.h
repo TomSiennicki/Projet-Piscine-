@@ -16,6 +16,7 @@ class Arete
       void ecrire_ar();
       void afficher_ar(Svgfile&svg);
       void setP(float p);
+      float getP();
       Sommet* getS1();
       Sommet* getS2();
 };
