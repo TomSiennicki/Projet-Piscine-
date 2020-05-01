@@ -39,7 +39,7 @@ public :
     void sauvegarde();
     void printpath(std::vector<Sommet>& path);
     bool isNotVisited(int id, std::vector<Sommet>& path);
-    void findpaths(Sommet src, Sommet dst);
+    void findpaths(Sommet src, Sommet dst, std::vector<std::vector<Sommet>> chemins);
     void affich();
 
 };

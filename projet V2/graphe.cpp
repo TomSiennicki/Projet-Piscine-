@@ -277,7 +277,7 @@ void Graphe::sauvegarde()
     }
 }
 
-/// CITER LA SOURCE
+/// SOURCE : https://www.geeksforgeeks.org/print-paths-given-source-destination-using-bfs/
 
 // utility function for printing
 // the found path in graph
@@ -290,6 +290,7 @@ void Graphe::printpath(std::vector<Sommet>& path)
     std::cout << std::endl;
 
 }
+
 
 // utility function to check if current
 // vertex is already present in path
@@ -304,8 +305,9 @@ bool Graphe::isNotVisited(int id, std::vector<Sommet>& path)
 
 // utility function for finding paths in graph
 // from source to destination
-void Graphe::findpaths(Sommet src, Sommet dst)
+void Graphe::findpaths(Sommet src, Sommet dst, std::vector<std::vector<Sommet>> chemins)
 {
+    int i=0;
     // create a queue which stores
     // the paths
     std::queue <std::vector<Sommet>> q;
@@ -323,7 +325,11 @@ void Graphe::findpaths(Sommet src, Sommet dst)
         // if last vertex is the desired destination
         // then print the path
         if (last.getId() == dst.getId())
+        {
             printpath(path);
+            i++;
+        }
+
 
         // traverse to all the nodes connected to
         // current vertex and push new path to queue
@@ -334,20 +340,30 @@ void Graphe::findpaths(Sommet src, Sommet dst)
                    std::vector<Sommet> newpath(path);
                    newpath.push_back(*(s.first));
                    q.push(newpath);
+                   i++;
                }
 
         }
-       /* for (int i = 0; i < g[last].size(); i++) {
-            if (isNotVisited(g[last][i], path)) {
-                vector<int> newpath(path);
-                newpath.push_back(g[last][i]);
-                q.push(newpath);
-            }
-        } */
+        /// On enregistre le path prit au début dans un vector de vector
+        chemins.push_back(std::vector<Sommet>());
+       /* for(unsigned int j=0; j<path.size(); j++)
+    {
+        chemins[i].push_back(path[j]);
+    } */
+
     }
 }
 
 void Graphe::affich()
 {
-    findpaths(*m_sommets[0], *m_sommets[3]);
+    std::vector<std::vector<Sommet>> chemins;
+
+    findpaths(*m_sommets[0], *m_sommets[3], chemins);
+/*
+    for(size_t i=0; i<chemins.size(); ++i)
+    {
+        for(size_t j=0; j<chemins[i].size(); ++j)
+            std::cout << chemins[i][j].getNom() << " ";
+    }
+    std::cout << std::endl; */
 }

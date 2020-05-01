@@ -16,7 +16,7 @@ void menu()
     svg.addGrid();#include <math.h>
     G.afficher_gr(svg);*/
     ///G.creaSuccSommet();#include <math.h>
-    int choix, choix2, choix3;
+    int choix, choix2;
 
 
     /*                              PONDERATION             */
