@@ -19,6 +19,7 @@ class Arete
       float getP();
       Sommet* getS1();
       Sommet* getS2();
+      int getIda();
 };
 
 #endif // ARC_H_INCLUDED

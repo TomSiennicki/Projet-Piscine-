@@ -33,7 +33,10 @@ void menu()
         std::cout<<"7.          AFFICHER LA CENTRALITE DE VECTEUR PROPRE NORMALISE"<<std::endl;
         std::cout<<"8.          AFFICHER LA CENTRALITE DE PROXIMITE"<<std::endl;
         std::cout<<"9.          AFFICHER LA CENTRALITE DE PROXIMITE NORMALISEE"<<std::endl;
-        std::cout<<"10.         SAUVEGARDER"<<std::endl;
+        std::cout<<"10.         AFFICHER LA CENTRALITE INTERMEDIAIRE"<<std::endl;
+        std::cout<<"11.         AFFICHER LA CENTRALITE INTERMEDIAIRE NORMALISEE"<<std::endl;
+        std::cout<<"12.         SUPPRIMER ARETE(S)"<<std::endl;
+        std::cout<<"13.         SAUVEGARDER"<<std::endl;
 
         std::cin>>choix;
         if(choix == 2)
@@ -84,12 +87,14 @@ void menu()
             G.vecteurPropre();
             G.affichageVecteurPropreNormal();
         }
-
+        if(choix == 13)
+        {
+            G.sauvegarde();
+        }
         if(choix == 8)
         {
             if(G.verifPoids())
             {
-
                 G.centreProximite();
             }
         }
@@ -103,6 +108,32 @@ void menu()
         }
 
         if(choix == 10)
+        {
+            if(G.verifPoids())
+            {
+                G.intermediaire();
+            }
+        }
+
+        if(choix == 11)
+        {
+            if(G.verifPoids())
+            {
+                G.intermediaireNorm();
+            }
+        }
+
+        if(choix == 12)
+        {
+            if(G.verifPoids())
+            {
+                G.creaSuccSommet();
+                G.centreAvSuppr();
+                G.enleverArete();
+            }
+        }
+
+        if(choix == 13)
         {
             G.sauvegarde();
         }

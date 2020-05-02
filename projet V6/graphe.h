@@ -17,6 +17,7 @@ protected :
     int m_ordre;
     int m_taille;
     std::vector<Arete*> m_aretes;
+    std::vector<std::vector<float>>m_tousInd;
     ///std::vector<std::vector<Sommet>> m_chemins;
 public :
     Graphe();
@@ -42,7 +43,11 @@ public :
     void findpaths(Sommet* src, Sommet* dst, Sommet* pointDePassage);
     void affich();
     void centreIntermediaire(Sommet* pointDePassage, std::vector<std::vector<Sommet*>> chemins, std::vector<int> idPCC);
-
+    void intermediaire();
+    void intermediaireNorm();
+    void enleverArete();
+    void centreAvSuppr();
+    void reinitSuccSom();
 };
 
 #endif // GRAPHE_H_INCLUDED

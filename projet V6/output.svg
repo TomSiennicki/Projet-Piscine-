@@ -52,9 +52,6 @@
 <circle cx="500" cy="500" r="1" fill="none" stroke="black" stroke-width="1" />
 <line x1="300" y1="100" x2="200" y2="200" stroke="black" />
 <line x1="300" y1="100" x2="400" y2="200" stroke="black" />
-<line x1="200" y1="200" x2="300" y2="300" stroke="black" />
-<line x1="400" y1="200" x2="300" y2="300" stroke="black" />
-<line x1="300" y1="300" x2="200" y2="400" stroke="black" />
 <line x1="300" y1="300" x2="400" y2="400" stroke="black" />
 <line x1="200" y1="200" x2="100" y2="500" stroke="black" />
 <line x1="400" y1="200" x2="500" y2="500" stroke="black" />

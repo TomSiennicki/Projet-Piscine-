@@ -20,7 +20,8 @@ class Sommet
         float m_Proximite;
         float m_proxNorm;
         float m_intermediaire;
-
+        float m_intermediaireNorm;
+        float m_idPCC;
     public :
         Sommet(int id, char nom, int x, int y);
         void ecrire_som();
@@ -31,8 +32,8 @@ class Sommet
         char getNom();
         std::map<Sommet*, float> getSucc();
         void setSucc(Sommet* succ, float poids);
-        int degre();
-        void setDegreNormal(int degN);
+        float degre();
+        void setDegreNormal(float degN);
         void reset();
         float getDistance();
         void setDistance(float distance);
@@ -50,6 +51,9 @@ class Sommet
         float getProxNorm();
         float getIntermediaire();
         void setIntermediaire(float interm);
+        float getIntermediaireNorm();
+        void setIntermediaireNorm(float interm);
+        void reinitSucc();
 };
 
 

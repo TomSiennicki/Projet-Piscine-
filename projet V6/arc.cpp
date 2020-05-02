@@ -42,3 +42,8 @@ Sommet* Arete::getS2()
 {
     return m_s2;
 }
+
+int Arete::getIda()
+{
+    return m_ida;
+}

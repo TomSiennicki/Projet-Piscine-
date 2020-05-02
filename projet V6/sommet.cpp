@@ -13,6 +13,7 @@ Sommet::Sommet(int id, char nom, int x, int y)
     m_distance = -1;
     m_marque=false;
     m_degre=0;
+    m_intermediaire=0;
 }
 void Sommet::ecrire_som()
 {
@@ -49,13 +50,13 @@ void Sommet::setSucc(Sommet* succ, float poids)
     m_succ.insert(std::pair <Sommet*, float> (succ, poids));
 }
 
-int Sommet::degre()
+float Sommet::degre()
 {
     m_degre=m_succ.size();
     return m_degre;
 }
 
-void Sommet::setDegreNormal(int degN)
+void Sommet::setDegreNormal(float degN)
 {
     m_degreNormal=degN;
 }
@@ -170,4 +171,19 @@ float Sommet::getIntermediaire()
 void Sommet::setIntermediaire(float interm)
 {
     m_intermediaire=interm;
+}
+
+float Sommet::getIntermediaireNorm()
+{
+    return m_intermediaireNorm;
+}
+void Sommet::setIntermediaireNorm(float interm)
+{
+    m_intermediaireNorm = interm;
+}
+
+
+void Sommet::reinitSucc()
+{
+    m_succ.clear();
 }
