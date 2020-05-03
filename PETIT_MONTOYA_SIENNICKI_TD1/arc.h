@@ -15,6 +15,7 @@ class Arete
       Arete(int ida, Sommet*s1, Sommet*s2);
       void ecrire_ar();
       void afficher_ar(Svgfile&svg);
+      void afficher_arEXT(Svgfile&svg);
       void setP(float p);
       float getP();
       Sommet* getS1();

@@ -16,9 +16,28 @@ Sommet::Sommet(int id, char nom, int x, int y)
     m_intermediaire=0;
     m_couleur=1;
 }
-void Sommet::ecrire_som()
+
+Sommet::Sommet(int id, std::string nom, int x, int y)
 {
-    std::cout<<"Sommet : "<<m_id<<" "<<m_nom<<" "<<m_x<<" "<<m_y<<std::endl;
+    m_id = id;
+    m_station = nom;
+    m_x =x;
+    m_y = y;
+    m_distance = -1;
+    m_marque=false;
+    m_degre=0;
+    m_intermediaire=0;
+    m_couleur=1;
+}
+
+void Sommet::ecrire_som(int choix0)
+{
+    if(choix0==5)
+        std::cout<<"Sommet : "<<m_id<<" "<<m_station<<" "<<m_x<<" "<<m_y<<std::endl;
+
+    else
+        std::cout<<"Sommet : "<<m_id<<" "<<m_nom<<" "<<m_x<<" "<<m_y<<std::endl;
+
 }
 
 int Sommet::getId()
@@ -111,6 +130,80 @@ void Sommet::afficher_som(Svgfile&svg, int choix)
             svg.addDisk(m_x*100, m_y*100, 5, svg.makeRGB(0,100*(1+m_intermediaireNorm), 100*(1+m_intermediaireNorm)));
 
 
+    }
+
+}
+
+void Sommet::afficher_somEXT(Svgfile&svg, int choix)
+{
+    svg.addText(5*m_x -15,5*m_y -15,m_station, "black");
+    svg.addRectangle(810, 30, 810, 10, 820, 10, 820, 30, svg.makeRGB(0,0,0));
+    svg.addText(822, 23, " centralite minimum", "black");
+
+    svg.addRectangle(810, 60, 810, 40, 820, 40, 820, 60, svg.makeRGB(0,255,255));
+    svg.addText(822, 53, " centralite maximum", "black");
+
+    if(choix==3) ///DEGRE
+    {
+        svg.addDisk(m_x*5, m_y*5, 5, svg.makeRGB(0,40*m_degre,40*m_degre));
+        svg.addText(822, 80, "CENTRALITE DEGRE", "black");
+    }
+
+    if(choix==4) ///DEGRE NORMALISE
+    {
+        svg.addDisk(m_x*5 , m_y*5 , 5, svg.makeRGB(0,40*m_degre,40*m_degre));
+        svg.addText(822, 80, "CENTRALITE DEGRE NORMALISE", "black");
+    }
+
+    if(choix==6 || choix==7) ///VECTEUR PROPRE
+    {
+        svg.addText(822, 80, "CENTRALITE  VECTEUR PROPRE", "black");
+        if(m_indice==0)
+            svg.addDisk(m_x*5 , m_y*5 , 5, svg.makeRGB(0,0,0));
+
+        else
+            svg.addDisk(m_x*5 , m_y*5 , 5, svg.makeRGB(0,100*(1+m_indice),100*(1+m_indice)));
+
+    }
+
+
+    if(choix==8 ) ///PROXIMITE
+    {
+        svg.addText(822, 80, "CENTRALITE PROXIMITE", "black");
+        if(m_Proximite==0)
+            svg.addDisk(m_x*5 , m_y*5 , 5, svg.makeRGB(0,0,0));
+
+        else
+            svg.addDisk(m_x*5 , m_y*5 , 5, svg.makeRGB(0,100*(1+m_Proximite),100*(1+m_Proximite)));
+
+    }
+
+    if(choix==9 ) ///PROXIMITE NORMALISE
+    {
+        svg.addText(822, 80, "CENTRALITE PROXIMITE NORMALISE", "black");
+        if(m_proxNorm==0)
+            svg.addDisk(m_x*5 , m_y*5 , 5, svg.makeRGB(0,0,0));
+
+        else
+            svg.addDisk(m_x*5 , m_y*5 , 5, svg.makeRGB(0,100*(1+m_proxNorm),100*(1+m_proxNorm)));
+
+    }
+
+    if(choix==10) /// INTERMEDIAIRE
+    {
+        svg.addDisk(m_x , m_y , 5, svg.makeRGB(0,15*m_intermediaire,15*m_intermediaire));
+        svg.addText(822, 80, "CENTRALITE INTERMEDIAIRE", "black");
+    }
+
+    if(choix==11) /// INTERMEDIAIRE NORMALISE
+    {
+        svg.addText(822,80, "CENTRALITE INTERMEDIAIRE NORMALISE", "black");
+
+        if(m_intermediaireNorm==0)
+            svg.addDisk(m_x*5 , m_y*5 , 5, svg.makeRGB(0,0,0));
+
+        else
+            svg.addDisk(m_x*5 , m_y*5 , 5, svg.makeRGB(0,100*(1+m_intermediaireNorm), 100*(1+m_intermediaireNorm)));
     }
 
 }

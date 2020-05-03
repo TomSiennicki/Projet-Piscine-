@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="5000" height="5000">
+
+<line x1="0" y1="0" x2="5000" y2="0" stroke="lightgrey" />
+<text x="5" y="-5" fill="lightgrey" >0</text>
+<line x1="0" y1="100" x2="5000" y2="100" stroke="lightgrey" />
+<text x="5" y="95" fill="lightgrey" >100</text>
+<line x1="0" y1="200" x2="5000" y2="200" stroke="lightgrey" />
+<text x="5" y="195" fill="lightgrey" >200</text>
+<line x1="0" y1="300" x2="5000" y2="300" stroke="lightgrey" />
+<text x="5" y="295" fill="lightgrey" >300</text>
+<line x1="0" y1="400" x2="5000" y2="400" stroke="lightgrey" />
+<text x="5" y="395" fill="lightgrey" >400</text>
+<line x1="0" y1="500" x2="5000" y2="500" stroke="lightgrey" />
+<text x="5" y="495" fill="lightgrey" >500</text>
+<line x1="0" y1="600" x2="5000" y2="600" stroke="lightgrey" />
+<text x="5" y="595" fill="lightgrey" >600</text>
+<line x1="0" y1="700" x2="5000" y2="700" stroke="lightgrey" />
+<text x="5" y="695" fill="lightgrey" >700</text>
+<line x1="0" y1="800" x2="5000" y2="800" stroke="lightgrey" />
+<text x="5" y="795" fill="lightgrey" >800</text>
+<line x1="0" y1="900" x2="5000" y2="900" stroke="lightgrey" />
+<text x="5" y="895" fill="lightgrey" >900</text>
+<line x1="0" y1="1000" x2="5000" y2="1000" stroke="lightgrey" />
+<text x="5" y="995" fill="lightgrey" >1000</text>
+<line x1="0" y1="1100" x2="5000" y2="1100" stroke="lightgrey" />
+<text x="5" y="1095" fill="lightgrey" >1100</text>
+<line x1="0" y1="1200" x2="5000" y2="1200" stroke="lightgrey" />
+<text x="5" y="1195" fill="lightgrey" >1200</text>
+<line x1="0" y1="1300" x2="5000" y2="1300" stroke="lightgrey" />
+<text x="5" y="1295" fill="lightgrey" >1300</text>
+<line x1="0" y1="1400" x2="5000" y2="1400" stroke="lightgrey" />
+<text x="5" y="1395" fill="lightgrey" >1400</text>
+<line x1="0" y1="1500" x2="5000" y2="1500" stroke="lightgrey" />
+<text x="5" y="1495" fill="lightgrey" >1500</text>
+<line x1="0" y1="1600" x2="5000" y2="1600" stroke="lightgrey" />
+<text x="5" y="1595" fill="lightgrey" >1600</text>
+<line x1="0" y1="1700" x2="5000" y2="1700" stroke="lightgrey" />
+<text x="5" y="1695" fill="lightgrey" >1700</text>
+<line x1="0" y1="1800" x2="5000" y2="1800" stroke="lightgrey" />
+<text x="5" y="1795" fill="lightgrey" >1800</text>
+<line x1="0" y1="1900" x2="5000" y2="1900" stroke="lightgrey" />
+<text x="5" y="1895" fill="lightgrey" >1900</text>
+<line x1="0" y1="2000" x2="5000" y2="2000" stroke="lightgrey" />
+<text x="5" y="1995" fill="lightgrey" >2000</text>
+<line x1="0" y1="2100" x2="5000" y2="2100" stroke="lightgrey" />
+<text x="5" y="2095" fill="lightgrey" >2100</text>
+<line x1="0" y1="2200" x2="5000" y2="2200" stroke="lightgrey" />
+<text x="5" y="2195" fill="lightgrey" >2200</text>
+<line x1="0" y1="2300" x2="5000" y2="2300" stroke="lightgrey" />
+<text x="5" y="2295" fill="lightgrey" >2300</text>
+<line x1="0" y1="2400" x2="5000" y2="2400" stroke="lightgrey" />
+<text x="5" y="2395" fill="lightgrey" >2400</text>
+<line x1="0" y1="2500" x2="5000" y2="2500" stroke="lightgrey" />
+<text x="5" y="2495" fill="lightgrey" >2500</text>
+<line x1="0" y1="2600" x2="5000" y2="2600" stroke="lightgrey" />
+<text x="5" y="2595" fill="lightgrey" >2600</text>
+<line x1="0" y1="2700" x2="5000" y2="2700" stroke="lightgrey" />
+<text x="5" y="2695" fill="lightgrey" >2700</text>
+<line x1="0" y1="2800" x2="5000" y2="2800" stroke="lightgrey" />
+<text x="5" y="2795" fill="lightgrey" >2800</text>
+<line x1="0" y1="2900" x2="5000" y2="2900" stroke="lightgrey" />
+<text x="5" y="2895" fill="lightgrey" >2900</text>
+<line x1="0" y1="3000" x2="5000" y2="3000" stroke="lightgrey" />
+<text x="5" y="2995" fill="lightgrey" >3000</text>
+<line x1="0" y1="3100" x2="5000" y2="3100" stroke="lightgrey" />
+<text x="5" y="3095" fill="lightgrey" >3100</text>
+<line x1="0" y1="3200" x2="5000" y2="3200" stroke="lightgrey" />
+<text x="5" y="3195" fill="lightgrey" >3200</text>
+<line x1="0" y1="3300" x2="5000" y2="3300" stroke="lightgrey" />
+<text x="5" y="3295" fill="lightgrey" >3300</text>
+<line x1="0" y1="3400" x2="5000" y2="3400" stroke="lightgrey" />
+<text x="5" y="3395" fill="lightgrey" >3400</text>
+<line x1="0" y1="3500" x2="5000" y2="3500" stroke="lightgrey" />
+<text x="5" y="3495" fill="lightgrey" >3500</text>
+<line x1="0" y1="3600" x2="5000" y2="3600" stroke="lightgrey" />
+<text x="5" y="3595" fill="lightgrey" >3600</text>
+<line x1="0" y1="3700" x2="5000" y2="3700" stroke="lightgrey" />
+<text x="5" y="3695" fill="lightgrey" >3700</text>
+<line x1="0" y1="3800" x2="5000" y2="3800" stroke="lightgrey" />
+<text x="5" y="3795" fill="lightgrey" >3800</text>
+<line x1="0" y1="3900" x2="5000" y2="3900" stroke="lightgrey" />
+<text x="5" y="3895" fill="lightgrey" >3900</text>
+<line x1="0" y1="4000" x2="5000" y2="4000" stroke="lightgrey" />
+<text x="5" y="3995" fill="lightgrey" >4000</text>
+<line x1="0" y1="4100" x2="5000" y2="4100" stroke="lightgrey" />
+<text x="5" y="4095" fill="lightgrey" >4100</text>
+<line x1="0" y1="4200" x2="5000" y2="4200" stroke="lightgrey" />
+<text x="5" y="4195" fill="lightgrey" >4200</text>
+<line x1="0" y1="4300" x2="5000" y2="4300" stroke="lightgrey" />
+<text x="5" y="4295" fill="lightgrey" >4300</text>
+<line x1="0" y1="4400" x2="5000" y2="4400" stroke="lightgrey" />
+<text x="5" y="4395" fill="lightgrey" >4400</text>
+<line x1="0" y1="4500" x2="5000" y2="4500" stroke="lightgrey" />
+<text x="5" y="4495" fill="lightgrey" >4500</text>
+<line x1="0" y1="4600" x2="5000" y2="4600" stroke="lightgrey" />
+<text x="5" y="4595" fill="lightgrey" >4600</text>
+<line x1="0" y1="4700" x2="5000" y2="4700" stroke="lightgrey" />
+<text x="5" y="4695" fill="lightgrey" >4700</text>
+<line x1="0" y1="4800" x2="5000" y2="4800" stroke="lightgrey" />
+<text x="5" y="4795" fill="lightgrey" >4800</text>
+<line x1="0" y1="4900" x2="5000" y2="4900" stroke="lightgrey" />
+<text x="5" y="4895" fill="lightgrey" >4900</text>
+<line x1="0" y1="5000" x2="5000" y2="5000" stroke="lightgrey" />
+<text x="5" y="4995" fill="lightgrey" >5000</text>
+<line x1="0" y1="0" x2="0" y2="5000" stroke="lightgrey" />
+<text x="5" y="15" fill="lightgrey" >0</text>
+<line x1="100" y1="0" x2="100" y2="5000" stroke="lightgrey" />
+<text x="105" y="15" fill="lightgrey" >100</text>
+<line x1="200" y1="0" x2="200" y2="5000" stroke="lightgrey" />
+<text x="205" y="15" fill="lightgrey" >200</text>
+<line x1="300" y1="0" x2="300" y2="5000" stroke="lightgrey" />
+<text x="305" y="15" fill="lightgrey" >300</text>
+<line x1="400" y1="0" x2="400" y2="5000" stroke="lightgrey" />
+<text x="405" y="15" fill="lightgrey" >400</text>
+<line x1="500" y1="0" x2="500" y2="5000" stroke="lightgrey" />
+<text x="505" y="15" fill="lightgrey" >500</text>
+<line x1="600" y1="0" x2="600" y2="5000" stroke="lightgrey" />
+<text x="605" y="15" fill="lightgrey" >600</text>
+<line x1="700" y1="0" x2="700" y2="5000" stroke="lightgrey" />
+<text x="705" y="15" fill="lightgrey" >700</text>
+<line x1="800" y1="0" x2="800" y2="5000" stroke="lightgrey" />
+<text x="805" y="15" fill="lightgrey" >800</text>
+<line x1="900" y1="0" x2="900" y2="5000" stroke="lightgrey" />
+<text x="905" y="15" fill="lightgrey" >900</text>
+<line x1="1000" y1="0" x2="1000" y2="5000" stroke="lightgrey" />
+<text x="1005" y="15" fill="lightgrey" >1000</text>
+<line x1="1100" y1="0" x2="1100" y2="5000" stroke="lightgrey" />
+<text x="1105" y="15" fill="lightgrey" >1100</text>
+<line x1="1200" y1="0" x2="1200" y2="5000" stroke="lightgrey" />
+<text x="1205" y="15" fill="lightgrey" >1200</text>
+<line x1="1300" y1="0" x2="1300" y2="5000" stroke="lightgrey" />
+<text x="1305" y="15" fill="lightgrey" >1300</text>
+<line x1="1400" y1="0" x2="1400" y2="5000" stroke="lightgrey" />
+<text x="1405" y="15" fill="lightgrey" >1400</text>
+<line x1="1500" y1="0" x2="1500" y2="5000" stroke="lightgrey" />
+<text x="1505" y="15" fill="lightgrey" >1500</text>
+<line x1="1600" y1="0" x2="1600" y2="5000" stroke="lightgrey" />
+<text x="1605" y="15" fill="lightgrey" >1600</text>
+<line x1="1700" y1="0" x2="1700" y2="5000" stroke="lightgrey" />
+<text x="1705" y="15" fill="lightgrey" >1700</text>
+<line x1="1800" y1="0" x2="1800" y2="5000" stroke="lightgrey" />
+<text x="1805" y="15" fill="lightgrey" >1800</text>
+<line x1="1900" y1="0" x2="1900" y2="5000" stroke="lightgrey" />
+<text x="1905" y="15" fill="lightgrey" >1900</text>
+<line x1="2000" y1="0" x2="2000" y2="5000" stroke="lightgrey" />
+<text x="2005" y="15" fill="lightgrey" >2000</text>
+<line x1="2100" y1="0" x2="2100" y2="5000" stroke="lightgrey" />
+<text x="2105" y="15" fill="lightgrey" >2100</text>
+<line x1="2200" y1="0" x2="2200" y2="5000" stroke="lightgrey" />
+<text x="2205" y="15" fill="lightgrey" >2200</text>
+<line x1="2300" y1="0" x2="2300" y2="5000" stroke="lightgrey" />
+<text x="2305" y="15" fill="lightgrey" >2300</text>
+<line x1="2400" y1="0" x2="2400" y2="5000" stroke="lightgrey" />
+<text x="2405" y="15" fill="lightgrey" >2400</text>
+<line x1="2500" y1="0" x2="2500" y2="5000" stroke="lightgrey" />
+<text x="2505" y="15" fill="lightgrey" >2500</text>
+<line x1="2600" y1="0" x2="2600" y2="5000" stroke="lightgrey" />
+<text x="2605" y="15" fill="lightgrey" >2600</text>
+<line x1="2700" y1="0" x2="2700" y2="5000" stroke="lightgrey" />
+<text x="2705" y="15" fill="lightgrey" >2700</text>
+<line x1="2800" y1="0" x2="2800" y2="5000" stroke="lightgrey" />
+<text x="2805" y="15" fill="lightgrey" >2800</text>
+<line x1="2900" y1="0" x2="2900" y2="5000" stroke="lightgrey" />
+<text x="2905" y="15" fill="lightgrey" >2900</text>
+<line x1="3000" y1="0" x2="3000" y2="5000" stroke="lightgrey" />
+<text x="3005" y="15" fill="lightgrey" >3000</text>
+<line x1="3100" y1="0" x2="3100" y2="5000" stroke="lightgrey" />
+<text x="3105" y="15" fill="lightgrey" >3100</text>
+<line x1="3200" y1="0" x2="3200" y2="5000" stroke="lightgrey" />
+<text x="3205" y="15" fill="lightgrey" >3200</text>
+<line x1="3300" y1="0" x2="3300" y2="5000" stroke="lightgrey" />
+<text x="3305" y="15" fill="lightgrey" >3300</text>
+<line x1="3400" y1="0" x2="3400" y2="5000" stroke="lightgrey" />
+<text x="3405" y="15" fill="lightgrey" >3400</text>
+<line x1="3500" y1="0" x2="3500" y2="5000" stroke="lightgrey" />
+<text x="3505" y="15" fill="lightgrey" >3500</text>
+<line x1="3600" y1="0" x2="3600" y2="5000" stroke="lightgrey" />
+<text x="3605" y="15" fill="lightgrey" >3600</text>
+<line x1="3700" y1="0" x2="3700" y2="5000" stroke="lightgrey" />
+<text x="3705" y="15" fill="lightgrey" >3700</text>
+<line x1="3800" y1="0" x2="3800" y2="5000" stroke="lightgrey" />
+<text x="3805" y="15" fill="lightgrey" >3800</text>
+<line x1="3900" y1="0" x2="3900" y2="5000" stroke="lightgrey" />
+<text x="3905" y="15" fill="lightgrey" >3900</text>
+<line x1="4000" y1="0" x2="4000" y2="5000" stroke="lightgrey" />
+<text x="4005" y="15" fill="lightgrey" >4000</text>
+<line x1="4100" y1="0" x2="4100" y2="5000" stroke="lightgrey" />
+<text x="4105" y="15" fill="lightgrey" >4100</text>
+<line x1="4200" y1="0" x2="4200" y2="5000" stroke="lightgrey" />
+<text x="4205" y="15" fill="lightgrey" >4200</text>
+<line x1="4300" y1="0" x2="4300" y2="5000" stroke="lightgrey" />
+<text x="4305" y="15" fill="lightgrey" >4300</text>
+<line x1="4400" y1="0" x2="4400" y2="5000" stroke="lightgrey" />
+<text x="4405" y="15" fill="lightgrey" >4400</text>
+<line x1="4500" y1="0" x2="4500" y2="5000" stroke="lightgrey" />
+<text x="4505" y="15" fill="lightgrey" >4500</text>
+<line x1="4600" y1="0" x2="4600" y2="5000" stroke="lightgrey" />
+<text x="4605" y="15" fill="lightgrey" >4600</text>
+<line x1="4700" y1="0" x2="4700" y2="5000" stroke="lightgrey" />
+<text x="4705" y="15" fill="lightgrey" >4700</text>
+<line x1="4800" y1="0" x2="4800" y2="5000" stroke="lightgrey" />
+<text x="4805" y="15" fill="lightgrey" >4800</text>
+<line x1="4900" y1="0" x2="4900" y2="5000" stroke="lightgrey" />
+<text x="4905" y="15" fill="lightgrey" >4900</text>
+<line x1="5000" y1="0" x2="5000" y2="5000" stroke="lightgrey" />
+<text x="5005" y="15" fill="lightgrey" >5000</text>
+<line x1="480" y1="245" x2="585" y2="285" stroke="black" />
+<circle cx="480" cy="245" r="5" fill="black" />
+<circle cx="585" cy="285" r="5" fill="black" />
+<line x1="585" y1="285" x2="570" y2="435" stroke="black" />
+<circle cx="585" cy="285" r="5" fill="black" />
+<circle cx="570" cy="435" r="5" fill="black" />
+<line x1="570" y1="435" x2="565" y2="545" stroke="black" />
+<circle cx="570" cy="435" r="5" fill="black" />
+<circle cx="565" cy="545" r="5" fill="black" />
+<line x1="565" y1="545" x2="585" y2="640" stroke="black" />
+<circle cx="565" cy="545" r="5" fill="black" />
+<circle cx="585" cy="640" r="5" fill="black" />
+<line x1="585" y1="640" x2="620" y2="630" stroke="black" />
+<circle cx="585" cy="640" r="5" fill="black" />
+<circle cx="620" cy="630" r="5" fill="black" />
+<line x1="620" y1="630" x2="635" y2="810" stroke="black" />
+<circle cx="620" cy="630" r="5" fill="black" />
+<circle cx="635" cy="810" r="5" fill="black" />
+<line x1="635" y1="810" x2="655" y2="885" stroke="black" />
+<circle cx="635" cy="810" r="5" fill="black" />
+<circle cx="655" cy="885" r="5" fill="black" />
+<line x1="655" y1="885" x2="715" y2="1030" stroke="black" />
+<circle cx="655" cy="885" r="5" fill="black" />
+<circle cx="715" cy="1030" r="5" fill="black" />
+<line x1="715" y1="1030" x2="740" y2="1075" stroke="black" />
+<circle cx="715" cy="1030" r="5" fill="black" />
+<circle cx="740" cy="1075" r="5" fill="black" />
+<line x1="740" y1="1075" x2="775" y2="1125" stroke="black" />
+<circle cx="740" cy="1075" r="5" fill="black" />
+<circle cx="775" cy="1125" r="5" fill="black" />
+<line x1="775" y1="1125" x2="805" y2="1230" stroke="black" />
+<circle cx="775" cy="1125" r="5" fill="black" />
+<circle cx="805" cy="1230" r="5" fill="black" />
+<line x1="805" y1="1230" x2="795" y2="1360" stroke="black" />
+<circle cx="805" cy="1230" r="5" fill="black" />
+<circle cx="795" cy="1360" r="5" fill="black" />
+<line x1="795" y1="1360" x2="790" y2="1480" stroke="black" />
+<circle cx="795" cy="1360" r="5" fill="black" />
+<circle cx="790" cy="1480" r="5" fill="black" />
+<line x1="790" y1="1480" x2="845" y2="1535" stroke="black" />
+<circle cx="790" cy="1480" r="5" fill="black" />
+<circle cx="845" cy="1535" r="5" fill="black" />
+<line x1="845" y1="1535" x2="920" y2="1565" stroke="black" />
+<circle cx="845" cy="1535" r="5" fill="black" />
+<circle cx="920" cy="1565" r="5" fill="black" />
+<line x1="920" y1="1565" x2="1005" y2="1550" stroke="black" />
+<circle cx="920" cy="1565" r="5" fill="black" />
+<circle cx="1005" cy="1550" r="5" fill="black" />
+<line x1="1005" y1="1550" x2="1155" y2="1205" stroke="black" />
+<circle cx="1005" cy="1550" r="5" fill="black" />
+<circle cx="1155" cy="1205" r="5" fill="black" />
+<line x1="1155" y1="1205" x2="1330" y2="1130" stroke="black" />
+<circle cx="1155" cy="1205" r="5" fill="black" />
+<circle cx="1330" cy="1130" r="5" fill="black" />
+<line x1="1330" y1="1130" x2="1580" y2="1150" stroke="black" />
+<circle cx="1330" cy="1130" r="5" fill="black" />
+<circle cx="1580" cy="1150" r="5" fill="black" />
+<line x1="1580" y1="1150" x2="1690" y2="1210" stroke="black" />
+<circle cx="1580" cy="1150" r="5" fill="black" />
+<circle cx="1690" cy="1210" r="5" fill="black" />
+<line x1="1690" y1="1210" x2="1485" y2="970" stroke="black" />
+<circle cx="1690" cy="1210" r="5" fill="black" />
+<circle cx="1485" cy="970" r="5" fill="black" />
+<line x1="1485" y1="970" x2="1370" y2="870" stroke="black" />
+<circle cx="1485" cy="970" r="5" fill="black" />
+<circle cx="1370" cy="870" r="5" fill="black" />
+<line x1="1370" y1="870" x2="1305" y2="790" stroke="black" />
+<circle cx="1370" cy="870" r="5" fill="black" />
+<circle cx="1305" cy="790" r="5" fill="black" />
+<line x1="1305" y1="790" x2="1245" y2="715" stroke="black" />
+<circle cx="1305" cy="790" r="5" fill="black" />
+<circle cx="1245" cy="715" r="5" fill="black" />
+<line x1="1245" y1="715" x2="1120" y2="615" stroke="black" />
+<circle cx="1245" cy="715" r="5" fill="black" />
+<circle cx="1120" cy="615" r="5" fill="black" />
+<line x1="1120" y1="615" x2="1045" y2="545" stroke="black" />
+<circle cx="1120" cy="615" r="5" fill="black" />
+<circle cx="1045" cy="545" r="5" fill="black" />
+<line x1="1045" y1="545" x2="975" y2="495" stroke="black" />
+<circle cx="1045" cy="545" r="5" fill="black" />
+<circle cx="975" cy="495" r="5" fill="black" />
+<line x1="975" y1="495" x2="885" y2="440" stroke="black" />
+<circle cx="975" cy="495" r="5" fill="black" />
+<circle cx="885" cy="440" r="5" fill="black" />
+<line x1="885" y1="440" x2="825" y2="395" stroke="black" />
+<circle cx="885" cy="440" r="5" fill="black" />
+<circle cx="825" cy="395" r="5" fill="black" />
+<line x1="825" y1="395" x2="735" y2="355" stroke="black" />
+<circle cx="825" cy="395" r="5" fill="black" />
+<circle cx="735" cy="355" r="5" fill="black" />
+<line x1="715" y1="490" x2="585" y2="285" stroke="black" />
+<circle cx="715" cy="490" r="5" fill="black" />
+<circle cx="585" cy="285" r="5" fill="black" />
+<line x1="715" y1="490" x2="835" y2="535" stroke="black" />
+<circle cx="715" cy="490" r="5" fill="black" />
+<circle cx="835" cy="535" r="5" fill="black" />
+<line x1="1155" y1="1205" x2="1575" y2="2095" stroke="black" />
+<circle cx="1155" cy="1205" r="5" fill="black" />
+<circle cx="1575" cy="2095" r="5" fill="black" />
+<line x1="1575" y1="2095" x2="1600" y2="2405" stroke="black" />
+<circle cx="1575" cy="2095" r="5" fill="black" />
+<circle cx="1600" cy="2405" r="5" fill="black" />
+<line x1="1600" y1="2405" x2="1395" y2="2405" stroke="black" />
+<circle cx="1600" cy="2405" r="5" fill="black" />
+<circle cx="1395" cy="2405" r="5" fill="black" />
+<line x1="1395" y1="2405" x2="1300" y2="2305" stroke="black" />
+<circle cx="1395" cy="2405" r="5" fill="black" />
+<circle cx="1300" cy="2305" r="5" fill="black" />
+<line x1="1300" y1="2305" x2="1585" y2="1680" stroke="black" />
+<circle cx="1300" cy="2305" r="5" fill="black" />
+<circle cx="1585" cy="1680" r="5" fill="black" />
+<line x1="1585" y1="1680" x2="1615" y2="1560" stroke="black" />
+<circle cx="1585" cy="1680" r="5" fill="black" />
+<circle cx="1615" cy="1560" r="5" fill="black" />
+<line x1="1615" y1="1560" x2="1505" y2="1220" stroke="black" />
+<circle cx="1615" cy="1560" r="5" fill="black" />
+<circle cx="1505" cy="1220" r="5" fill="black" />
+<line x1="1505" y1="1220" x2="1580" y2="1150" stroke="black" />
+<circle cx="1505" cy="1220" r="5" fill="black" />
+<circle cx="1580" cy="1150" r="5" fill="black" />
+<line x1="1690" y1="1210" x2="1895" y2="1240" stroke="black" />
+<circle cx="1690" cy="1210" r="5" fill="black" />
+<circle cx="1895" cy="1240" r="5" fill="black" />
+<line x1="1895" y1="1240" x2="2370" y2="1375" stroke="black" />
+<circle cx="1895" cy="1240" r="5" fill="black" />
+<circle cx="2370" cy="1375" r="5" fill="black" />
+<line x1="2370" y1="1375" x2="2465" y2="1495" stroke="black" />
+<circle cx="2370" cy="1375" r="5" fill="black" />
+<circle cx="2465" cy="1495" r="5" fill="black" />
+<line x1="2465" y1="1495" x2="2485" y2="1585" stroke="black" />
+<circle cx="2465" cy="1495" r="5" fill="black" />
+<circle cx="2485" cy="1585" r="5" fill="black" />
+<line x1="2485" y1="1585" x2="2475" y2="1785" stroke="black" />
+<circle cx="2485" cy="1585" r="5" fill="black" />
+<circle cx="2475" cy="1785" r="5" fill="black" />
+<line x1="2475" y1="1785" x2="2465" y2="2060" stroke="black" />
+<circle cx="2475" cy="1785" r="5" fill="black" />
+<circle cx="2465" cy="2060" r="5" fill="black" />
+<line x1="2465" y1="2060" x2="2445" y2="2180" stroke="black" />
+<circle cx="2465" cy="2060" r="5" fill="black" />
+<circle cx="2445" cy="2180" r="5" fill="black" />
+<line x1="2445" y1="2180" x2="2325" y2="2625" stroke="black" />
+<circle cx="2445" cy="2180" r="5" fill="black" />
+<circle cx="2325" cy="2625" r="5" fill="black" />
+<line x1="2325" y1="2625" x2="2285" y2="2585" stroke="black" />
+<circle cx="2325" cy="2625" r="5" fill="black" />
+<circle cx="2285" cy="2585" r="5" fill="black" />
+<line x1="2285" y1="2585" x2="2255" y2="2665" stroke="black" />
+<circle cx="2285" cy="2585" r="5" fill="black" />
+<circle cx="2255" cy="2665" r="5" fill="black" />
+<line x1="2255" y1="2665" x2="2135" y2="2735" stroke="black" />
+<circle cx="2255" cy="2665" r="5" fill="black" />
+<circle cx="2135" cy="2735" r="5" fill="black" />
+<line x1="2135" y1="2735" x2="1990" y2="2795" stroke="black" />
+<circle cx="2135" cy="2735" r="5" fill="black" />
+<circle cx="1990" cy="2795" r="5" fill="black" />
+<line x1="1990" y1="2795" x2="1805" y2="2715" stroke="black" />
+<circle cx="1990" cy="2795" r="5" fill="black" />
+<circle cx="1805" cy="2715" r="5" fill="black" />
+<line x1="1805" y1="2715" x2="1625" y2="2610" stroke="black" />
+<circle cx="1805" cy="2715" r="5" fill="black" />
+<circle cx="1625" cy="2610" r="5" fill="black" />
+<line x1="1625" y1="2610" x2="1470" y2="2490" stroke="black" />
+<circle cx="1625" cy="2610" r="5" fill="black" />
+<circle cx="1470" cy="2490" r="5" fill="black" />
+<line x1="1470" y1="2490" x2="1395" y2="2405" stroke="black" />
+<circle cx="1470" cy="2490" r="5" fill="black" />
+<circle cx="1395" cy="2405" r="5" fill="black" />
+<line x1="1210" y1="2210" x2="1300" y2="2305" stroke="black" />
+<circle cx="1210" cy="2210" r="5" fill="black" />
+<circle cx="1300" cy="2305" r="5" fill="black" />
+<line x1="1210" y1="2210" x2="1125" y2="2140" stroke="black" />
+<circle cx="1210" cy="2210" r="5" fill="black" />
+<circle cx="1125" cy="2140" r="5" fill="black" />
+<line x1="1125" y1="2140" x2="1050" y2="2060" stroke="black" />
+<circle cx="1125" cy="2140" r="5" fill="black" />
+<circle cx="1050" cy="2060" r="5" fill="black" />
+<line x1="1050" y1="2060" x2="960" y2="1960" stroke="black" />
+<circle cx="1050" cy="2060" r="5" fill="black" />
+<circle cx="960" cy="1960" r="5" fill="black" />
+<line x1="960" y1="1960" x2="805" y2="1775" stroke="black" />
+<circle cx="960" cy="1960" r="5" fill="black" />
+<circle cx="805" cy="1775" r="5" fill="black" />
+<line x1="805" y1="1775" x2="725" y2="1625" stroke="black" />
+<circle cx="805" cy="1775" r="5" fill="black" />
+<circle cx="725" cy="1625" r="5" fill="black" />
+<line x1="725" y1="1625" x2="790" y2="1480" stroke="black" />
+<circle cx="725" cy="1625" r="5" fill="black" />
+<circle cx="790" cy="1480" r="5" fill="black" />
+<line x1="1005" y1="1550" x2="1585" y2="1680" stroke="black" />
+<circle cx="1005" cy="1550" r="5" fill="black" />
+<circle cx="1585" cy="1680" r="5" fill="black" />
+<line x1="2325" y1="2625" x2="2480" y2="2580" stroke="black" />
+<circle cx="2325" cy="2625" r="5" fill="black" />
+<circle cx="2480" cy="2580" r="5" fill="black" />
+<line x1="2480" y1="2580" x2="2665" y2="2590" stroke="black" />
+<circle cx="2480" cy="2580" r="5" fill="black" />
+<circle cx="2665" cy="2590" r="5" fill="black" />
+<line x1="2665" y1="2590" x2="2735" y2="2620" stroke="black" />
+<circle cx="2665" cy="2590" r="5" fill="black" />
+<circle cx="2735" cy="2620" r="5" fill="black" />
+<line x1="2735" y1="2620" x2="2830" y2="2675" stroke="black" />
+<circle cx="2735" cy="2620" r="5" fill="black" />
+<circle cx="2830" cy="2675" r="5" fill="black" />
+<line x1="2830" y1="2675" x2="2900" y2="2750" stroke="black" />
+<circle cx="2830" cy="2675" r="5" fill="black" />
+<circle cx="2900" cy="2750" r="5" fill="black" />
+<line x1="2900" y1="2750" x2="2985" y2="2820" stroke="black" />
+<circle cx="2900" cy="2750" r="5" fill="black" />
+<circle cx="2985" cy="2820" r="5" fill="black" />
+<line x1="2985" y1="2820" x2="3020" y2="2905" stroke="black" />
+<circle cx="2985" cy="2820" r="5" fill="black" />
+<circle cx="3020" cy="2905" r="5" fill="black" />
+<line x1="3020" y1="2905" x2="3055" y2="2970" stroke="black" />
+<circle cx="3020" cy="2905" r="5" fill="black" />
+<circle cx="3055" cy="2970" r="5" fill="black" />
+<line x1="3055" y1="2970" x2="3135" y2="3190" stroke="black" />
+<circle cx="3055" cy="2970" r="5" fill="black" />
+<circle cx="3135" cy="3190" r="5" fill="black" />
+<line x1="3020" y1="2905" x2="2335" y2="3130" stroke="black" />
+<circle cx="3020" cy="2905" r="5" fill="black" />
+<circle cx="2335" cy="3130" r="5" fill="black" />
+<line x1="2335" y1="3130" x2="2575" y2="3455" stroke="black" />
+<circle cx="2335" cy="3130" r="5" fill="black" />
+<circle cx="2575" cy="3455" r="5" fill="black" />
+<line x1="2575" y1="3455" x2="2685" y2="3580" stroke="black" />
+<circle cx="2575" cy="3455" r="5" fill="black" />
+<circle cx="2685" cy="3580" r="5" fill="black" />
+<line x1="2685" y1="3580" x2="2915" y2="3835" stroke="black" />
+<circle cx="2685" cy="3580" r="5" fill="black" />
+<circle cx="2915" cy="3835" r="5" fill="black" />
+<line x1="2915" y1="3835" x2="3010" y2="3925" stroke="black" />
+<circle cx="2915" cy="3835" r="5" fill="black" />
+<circle cx="3010" cy="3925" r="5" fill="black" />
+<line x1="3010" y1="3925" x2="2935" y2="4060" stroke="black" />
+<circle cx="3010" cy="3925" r="5" fill="black" />
+<circle cx="2935" cy="4060" r="5" fill="black" />
+<line x1="2935" y1="4060" x2="2865" y2="4165" stroke="black" />
+<circle cx="2935" cy="4060" r="5" fill="black" />
+<circle cx="2865" cy="4165" r="5" fill="black" />
+<line x1="2865" y1="4165" x2="2780" y2="4340" stroke="black" />
+<circle cx="2865" cy="4165" r="5" fill="black" />
+<circle cx="2780" cy="4340" r="5" fill="black" />
+<text x="465" y="230" fill="black" >PhareDeChassiron</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="480" cy="245" r="5" fill="rgb(0,40,40)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="570" y="270" fill="black" >CampingLesBeaupins</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="585" cy="285" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="555" y="420" fill="black" >AireDeCampingCarsDeSaintDenis</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="570" cy="435" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="550" y="530" fill="black" >CampingLesHuttes</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="565" cy="545" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="570" y="625" fill="black" >LesHameauxDesMarines</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="585" cy="640" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="605" y="615" fill="black" >PlageDesHuttes</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="620" cy="630" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="620" y="795" fill="black" >CampingLesSeulieres</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="635" cy="810" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="640" y="870" fill="black" >PlageDesSeulieres</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="655" cy="885" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="700" y="1015" fill="black" >CampingLaCampiere</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="715" cy="1030" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="725" y="1060" fill="black" >ChaucreVillage</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="740" cy="1075" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="760" y="1110" fill="black" >PlageDeChaucre</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="775" cy="1125" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="790" y="1215" fill="black" >DominoBoulangerie</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="805" cy="1230" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="780" y="1345" fill="black" >PlageDesBonnes</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="795" cy="1360" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="775" y="1465" fill="black" >CampingLesSablesVignierPlage</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="790" cy="1480" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="830" y="1520" fill="black" >CampingLesGrossesPierres</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="845" cy="1535" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="905" y="1550" fill="black" >CampingAirotelMerEtSoleil</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="920" cy="1565" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="990" y="1535" fill="black" >CampingLaBouliniere</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1005" cy="1550" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1140" y="1190" fill="black" >Cheray</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1155" cy="1205" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1315" y="1115" fill="black" >SaintGeorgesDOleronCentre</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1330" cy="1130" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1565" y="1135" fill="black" >CampingVerebleu</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1580" cy="1150" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1675" y="1195" fill="black" >CampingOleronLoisirs</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1690" cy="1210" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1470" y="955" fill="black" >PlageDeFoulerot</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1485" cy="970" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1355" y="855" fill="black" >PlageDePlaisance</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1370" cy="870" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1290" y="775" fill="black" >PortDuDouhet</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1305" cy="790" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1230" y="700" fill="black" >LaBreeLesBainsOfficeDeTourisme</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1245" cy="715" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1105" y="600" fill="black" >CampingLePlanginot</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1120" cy="615" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1030" y="530" fill="black" >PlageDeProuard</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1045" cy="545" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="960" y="480" fill="black" >CampingCapSoleil</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="975" cy="495" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="870" y="425" fill="black" >ParkingFel</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="885" cy="440" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="810" y="380" fill="black" >SaintDenisDOleronCampingMunicipal</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="825" cy="395" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="720" y="340" fill="black" >SaintDenisDOleronLePort</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="735" cy="355" r="5" fill="rgb(0,40,40)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="700" y="475" fill="black" >CampingMunicipal</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="715" cy="490" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="820" y="520" fill="black" >LePort</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="835" cy="535" r="5" fill="rgb(0,40,40)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1560" y="2080" fill="black" >Maisonneuve</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1575" cy="2095" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1585" y="2390" fill="black" >MathaCentre</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1600" cy="2405" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1380" y="2390" fill="black" >HotelLOceane</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1395" cy="2405" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1285" y="2290" fill="black" >LaCotiniereLePort</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1300" cy="2305" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1570" y="1665" fill="black" >SaintPierreDOleronGareRoutiere</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1585" cy="1680" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1600" y="1545" fill="black" >SaintPierreDOleronMarche</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1615" cy="1560" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1490" y="1205" fill="black" >CampingChadotelLeDomaineDOleron</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1505" cy="1220" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1880" y="1225" fill="black" >Sauzelle</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1895" cy="1240" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2355" y="1360" fill="black" >BoyardvillePlage</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2370" cy="1375" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2450" y="1480" fill="black" >BoyardvillePortasec</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2465" cy="1495" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2470" y="1570" fill="black" >CampingSignol</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2485" cy="1585" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2460" y="1770" fill="black" >CampingFortRoyerSteliaAerospace</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2475" cy="1785" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2450" y="2045" fill="black" >CaesDuCNRSLaVieillePerrotine</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2465" cy="2060" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2430" y="2165" fill="black" >LesAllardsLaForge</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2445" cy="2180" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2310" y="2610" fill="black" >DollusDOleronParcAquatiqueIleo</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2325" cy="2625" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2270" y="2570" fill="black" >AireDeServicesCampingCarsDeDolusDOleron</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2285" cy="2585" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2240" y="2650" fill="black" >DolusCentre</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2255" cy="2665" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2120" y="2720" fill="black" >CampingLeMontetDOleron</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2135" cy="2735" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1975" y="2780" fill="black" >PasseDuTreuil</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1990" cy="2795" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1790" y="2700" fill="black" >PlageDeLaRemigasse</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1805" cy="2715" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1610" y="2595" fill="black" >PlageDeLaPerroche</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1625" cy="2610" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1455" y="2475" fill="black" >CampingLesFlotsAtlantique</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1470" cy="2490" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1195" y="2195" fill="black" >LaCotinierePharmacie</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1210" cy="2210" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1110" y="2125" fill="black" >CampingLeSousBois</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1125" cy="2140" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="1035" y="2045" fill="black" >CampingLaFauchePrere</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="1050" cy="2060" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="945" y="1945" fill="black" >AtlanticHotel</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="960" cy="1960" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="790" y="1760" fill="black" >CampingLeSuroit</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="805" cy="1775" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="710" y="1610" fill="black" >LesGrosJoncs</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="725" cy="1625" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2465" y="2565" fill="black" >CampingLaCailletiere</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2480" cy="2580" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2650" y="2575" fill="black" >CampingOstreaVacances</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2665" cy="2590" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2720" y="2605" fill="black" >CampingOstrea</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2735" cy="2620" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2815" y="2660" fill="black" >CampingLaBrande</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2830" cy="2675" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2885" y="2735" fill="black" >LeChateauDOleron</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2900" cy="2750" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2970" y="2805" fill="black" >CampingLesRemparts</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2985" cy="2820" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="3005" y="2890" fill="black" >CampingAuPigeonnier</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="3020" cy="2905" r="5" fill="rgb(0,120,120)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="3040" y="2955" fill="black" >CampingAirotelOleron</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="3055" cy="2970" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="3120" y="3175" fill="black" >LeChateauDOleronPorteDOrs</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="3135" cy="3190" r="5" fill="rgb(0,40,40)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2320" y="3115" fill="black" >VersBois</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2335" cy="3130" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2560" y="3440" fill="black" >LeGrandVillagePlageMairie</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2575" cy="3455" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2670" y="3565" fill="black" >PortDesSalines</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2685" cy="3580" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2900" y="3820" fill="black" >LePort</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2915" cy="3835" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2995" y="3910" fill="black" >SaintTrojanLesBainsMarche</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="3010" cy="3925" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2920" y="4045" fill="black" >HotelLesCleunesOleron</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2935" cy="4060" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2850" y="4150" fill="black" >CampingOldaysMonplaisir</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2865" cy="4165" r="5" fill="rgb(0,80,80)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+<text x="2765" y="4325" fill="black" >LannelonguePlagedeGatseau</text>
+<polygon points=" 810,30 810,10 820,10 820,30" style="fill:rgb(0,0,0)" />
+<text x="822" y="23" fill="black" > centralite minimum</text>
+<polygon points=" 810,60 810,40 820,40 820,60" style="fill:rgb(0,255,255)" />
+<text x="822" y="53" fill="black" > centralite maximum</text>
+<circle cx="2780" cy="4340" r="5" fill="rgb(0,40,40)" />
+<text x="822" y="80" fill="black" >CENTRALITE DEGRE</text>
+
+
+</svg>

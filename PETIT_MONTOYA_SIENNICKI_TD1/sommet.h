@@ -24,12 +24,15 @@ class Sommet
         float m_idPCC;
         int m_couleur;
         Sommet*m_pere;
+        std::string m_station;
 
     public :
         Sommet(int id, char nom, int x, int y);
-        void ecrire_som();
+        Sommet(int id, std::string nom, int x, int y);
+        void ecrire_som(int choix0);
         int getId();
         void afficher_som(Svgfile&svg, int choix);
+        void afficher_somEXT(Svgfile&svg, int choix);
         int getx();
         int gety();
         char getNom();

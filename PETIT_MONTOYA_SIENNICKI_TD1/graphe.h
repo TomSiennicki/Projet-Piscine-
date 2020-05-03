@@ -23,8 +23,9 @@ protected :
 public :
     Graphe();
     Graphe(std::string nom_fich);
-    void ecrire_som();
-    void afficher_gr(Svgfile&svg, int choix);
+    Graphe(std::string nom_fich, int choix0);
+    void ecrire_som(int choix0);
+    void afficher_gr(Svgfile&svg, int choix, int choix0);
     void ponderation(std::string nom_fich);
     int getOrdre();
     void creaSuccSommet();
@@ -46,7 +47,7 @@ public :
     void centreIntermediaire(Sommet* pointDePassage, std::vector<std::vector<Sommet*>> chemins, std::vector<int> idPCC);
     void intermediaire();
     void intermediaireNorm();
-    void enleverArete();
+    void enleverArete(int choix0);
     void centreAvSuppr();
     void reinitSuccSom();
     //std::vector<int> DFS(int num_s0)const;

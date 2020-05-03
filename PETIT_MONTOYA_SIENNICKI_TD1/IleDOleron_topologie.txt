@@ -1,0 +1,163 @@
+0
+78
+0 PhareDeChassiron 96 49
+1 CampingLesBeaupins 117 57 
+2 AireDeCampingCarsDeSaintDenis 114 87
+3 CampingLesHuttes 113 109
+4 LesHameauxDesMarines 117 128 
+5 PlageDesHuttes 124 126
+6 CampingLesSeulieres 127 162
+7 PlageDesSeulieres 131 177
+8 CampingLaCampiere 143 206
+9 ChaucreVillage 148 215 
+10 PlageDeChaucre 155 225
+11 DominoBoulangerie 161 246 
+12 PlageDesBonnes 159 272
+13 CampingLesSablesVignierPlage 158 296 
+14 CampingLesGrossesPierres 169 307 
+15 CampingAirotelMerEtSoleil 184 313 
+16 CampingLaBouliniere 201 310
+17 Cheray 231 241
+18 SaintGeorgesDOleronCentre 266 226
+19 CampingVerebleu 316 230 
+20 CampingOleronLoisirs 338 242
+21 PlageDeFoulerot 297 194
+22 PlageDePlaisance 274 174
+23 PortDuDouhet 261 158
+24 LaBreeLesBainsOfficeDeTourisme 249 143
+25 CampingLePlanginot 224 123 
+26 PlageDeProuard 209 109
+27 CampingCapSoleil 195 99
+28 ParkingFel 177 88 
+29 SaintDenisDOleronCampingMunicipal 165 79
+30 SaintDenisDOleronLePort 147 71 
+31 CampingMunicipal 143 98
+32 LePort 167 107
+33 Maisonneuve 315 419
+34 MathaCentre 320 481
+35 HotelLOceane 279 481
+36 LaCotiniereLePort 260 461
+37 SaintPierreDOleronGareRoutiere 317 336
+38 SaintPierreDOleronMarche 323 312
+39 CampingChadotelLeDomaineDOleron 301 244
+40 Sauzelle 379 248 
+41 BoyardvillePlage 474 275
+42 BoyardvillePortasec 493 299
+43 CampingSignol 497 317 
+44 CampingFortRoyerSteliaAerospace 495 357
+45 CaesDuCNRSLaVieillePerrotine 493 412
+46 LesAllardsLaForge 489 436
+47 DollusDOleronParcAquatiqueIleo 465 525
+48 AireDeServicesCampingCarsDeDolusDOleron 457 517
+49 DolusCentre 451 533
+50 CampingLeMontetDOleron 427 547 
+51 PasseDuTreuil 398 559
+52 PlageDeLaRemigasse 361 543
+53 PlageDeLaPerroche 325 522
+54 CampingLesFlotsAtlantique 294 498
+55 LaCotinierePharmacie 242 442
+56 CampingLeSousBois 225 428
+57 CampingLaFauchePrere 210 412
+58 AtlanticHotel 192 392
+59 CampingLeSuroit 161 355
+60 LesGrosJoncs 145 325 
+61 CampingLaCailletiere 496 516
+62 CampingOstreaVacances 533 518
+63 CampingOstrea 547 524
+64 CampingLaBrande 566 535
+65 LeChateauDOleron 580 550
+66 CampingLesRemparts 597 564
+67 CampingAuPigeonnier 604 581
+68 CampingAirotelOleron 611 594
+69 LeChateauDOleronPorteDOrs 627 638
+70 VersBois 467 626
+71 LeGrandVillagePlageMairie 515 691
+72 PortDesSalines 537 716
+73 LePort 583 767
+74 SaintTrojanLesBainsMarche 602 785
+75 HotelLesCleunesOleron 587 812 
+76 CampingOldaysMonplaisir 573 833
+77 LannelonguePlagedeGatseau 556 868 
+81
+0 0 1
+1 1 2
+2 2 3
+3 3 4
+4 4 5
+5 5 6
+6 6 7
+7 7 8
+8 8 9
+9 9 10
+10 10 11
+11 11 12
+12 12 13
+13 13 14
+14 14 15
+15 15 16
+16 16 17
+17 17 18
+18 18 19
+19 19 20
+20 20 21
+21 21 22
+22 22 23
+23 23 24
+24 24 25
+25 25 26
+26 26 27
+27 27 28
+28 28 29
+29 29 30
+30 31 1
+31 31 32
+32 17 33
+33 33 34
+34 34 35
+35 35 36
+36 36 37
+37 37 38
+38 38 39
+39 39 19
+40 20 40
+41 40 41
+42 41 42
+43 42 43
+44 43 44
+45 44 45
+46 45 46
+47 46 47
+48 47 48
+49 48 49
+50 49 50
+51 50 51
+52 51 52
+53 52 53
+54 53 54
+55 54 35
+56 55 36
+57 55 56 
+58 56 57
+59 57 58
+60 58 59
+61 59 60
+62 60 13
+63 16 37
+64 47 61
+65 61 62
+66 62 63
+67 63 64
+68 64 65
+69 65 66
+70 66 67
+71 67 68
+72 68 69
+73 67 70
+74 70 71
+75 71 72
+76 72 73
+77 73 74
+78 74 75
+79 75 76
+80 76 77
+

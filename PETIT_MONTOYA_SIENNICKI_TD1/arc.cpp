@@ -21,6 +21,17 @@ void Arete::ecrire_ar()
 void Arete::afficher_ar(Svgfile&svg)
 {
     svg.addLine(m_s1->getx()*100, m_s1->gety()*100, m_s2->getx()*100, m_s2->gety()*100, "black");
+    svg.addDisk(m_s1->getx()*100, m_s1->gety()*100, 5, "black");
+    svg.addDisk(m_s2->getx()*100, m_s2->gety()*100, 5, "black");
+
+}
+
+void Arete::afficher_arEXT(Svgfile&svg)
+{
+    svg.addLine(5*m_s1->getx(), 5*m_s1->gety(), 5*m_s2->getx(), 5*m_s2->gety(), "black");
+    svg.addDisk(m_s1->getx()*5, m_s1->gety()*5, 5, "black");
+    svg.addDisk(m_s2->getx()*5, m_s2->gety()*5, 5, "black");
+
 
 }
 

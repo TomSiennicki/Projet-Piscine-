@@ -12,10 +12,10 @@ Graphe::Graphe()
 
 }
 
-Graphe::Graphe(std::string nom_fich)
+
+Graphe::Graphe(std::string nom_fich, int choix0)
 {
     int ids;
-    char nom;
     int x,y;
     int ida,e,s;
     Arete*a;
@@ -23,6 +23,10 @@ Graphe::Graphe(std::string nom_fich)
     Sommet* s1;
     fichier>>m_orient;
     fichier>>m_ordre;
+
+    if(choix0 == 5)
+    {
+       std::string nom;
     for(int i=0; i<m_ordre; i++)
     {
         fichier>>ids;
@@ -32,6 +36,21 @@ Graphe::Graphe(std::string nom_fich)
         s1=new Sommet(ids, nom, x, y);
         m_sommets.push_back(s1);
     }
+    }
+
+    else {
+            char nom;
+             for(int i=0; i<m_ordre; i++)
+    {
+        fichier>>ids;
+        fichier>>nom;
+        fichier>>x;
+        fichier>>y;
+        s1=new Sommet(ids, nom, x, y);
+        m_sommets.push_back(s1);
+    }
+    }
+
     fichier>>m_taille;
     for(int k=0; k<m_taille; k++)
     {
@@ -65,14 +84,14 @@ void Graphe::ponderationNulle()
     }
 }
 
-void Graphe::ecrire_som()
+void Graphe::ecrire_som(int choix0)
 {
     std::cout<<"oriente : "<<m_orient<<std::endl;
     std::cout<<"ordre: "<<m_ordre<<std::endl;
     std::cout<<"taille : "<<m_taille<<std::endl;
     for(unsigned int i=0; i<m_sommets.size(); i++)
     {
-        m_sommets[i]->ecrire_som();
+        m_sommets[i]->ecrire_som(choix0);
     }
     for(unsigned int k=0; k<m_aretes.size(); k++)
     {
@@ -80,15 +99,29 @@ void Graphe::ecrire_som()
     }
 }
 
-void Graphe::afficher_gr(Svgfile&svg, int choix)
+void Graphe::afficher_gr(Svgfile&svg, int choix, int choix0)
 {
-    for(unsigned int k=0; k<m_aretes.size(); k++)
+    if(choix0==5)
+    {
+         for(unsigned int k=0; k<m_aretes.size(); k++)
+    {
+        m_aretes[k]->afficher_arEXT(svg);
+    }
+         for(unsigned int i=0; i<m_sommets.size(); i++)
+    {
+        m_sommets[i]->afficher_somEXT(svg, choix);
+    }
+    }
+
+    else{
+             for(unsigned int k=0; k<m_aretes.size(); k++)
     {
         m_aretes[k]->afficher_ar(svg);
     }
     for(unsigned int i=0; i<m_sommets.size(); i++)
     {
         m_sommets[i]->afficher_som(svg, choix);
+    }
     }
 }
 
@@ -105,25 +138,19 @@ void Graphe::creaSuccSommet()
         for(unsigned int j=0; j<m_aretes.size(); j++)
         {
             /// comparer si dans l'arête en s1 on a le même sommet[i]
-            if(m_aretes[j]->getS1()->getNom() == m_sommets[i]->getNom())
+            if(m_aretes[j]->getS1()->getId() == m_sommets[i]->getId())
             {
                 // on ajoute le sommet2 dans le vec de successeurs
                 m_sommets[i]->setSucc(m_aretes[j]->getS2(), m_aretes[j]->getP());
             }
 
             /// comparer si dans l'arête en s1 on a le même sommet[i]
-            if(m_aretes[j]->getS2()->getNom() == m_sommets[i]->getNom())
+            if(m_aretes[j]->getS2()->getId() == m_sommets[i]->getId())
             {
                 // on ajoute le sommet1 dans le vec de successeurs
                 m_sommets[i]->setSucc(m_aretes[j]->getS1(), m_aretes[j]->getP());
             }
         }
-        /*std::cout<<m_sommets[i]->getNom()<<" : ";
-        for(std::map<Sommet*, float>::iterator succ=m_sommets[i]->getSucc().begin(); succ!=m_sommets[i]->getSucc().end(); ++succ)
-        {
-            std::cout<<(succ->first)->getNom();
-        }
-        std::cout<<m_sommets[i]->getNom()<<std::endl;*/
     }
 
 }
@@ -299,10 +326,6 @@ void Graphe::sauvegarde()
 // the found path in graph
 void Graphe::printpath(std::vector<Sommet*>& path, int & i, std::vector<std::vector<Sommet*>> & chemins)
 {
-    /*for (auto sommet: path)
-    {
-        std::cout << sommet->getNom() << " ";
-    }*/
     chemins.push_back(std::vector<Sommet*>());
     for(unsigned int j =0; j<path.size(); j++)
     {
@@ -379,12 +402,12 @@ void Graphe::findpaths(Sommet* src, Sommet* dst, Sommet* pointDePassage)
             for (unsigned int p =0; p<m_aretes.size(); ++p)
                 if(k!=chemins[j].size()-1)
                 {
-                    if(chemins[j][k]->getNom() == m_aretes[p]->getS1()->getNom()  && chemins[j][k+1]->getNom() == m_aretes[p]->getS2()->getNom())
+                    if((chemins[j][k]->getId() == m_aretes[p]->getS1()->getId())  && chemins[j][k+1]->getId() == m_aretes[p]->getS2()->getId())
                     {
                         S+=m_aretes[p]->getP();
                     }
 
-                    if(chemins[j][k]->getNom() == m_aretes[p]->getS2()->getNom()  && chemins[j][k+1]->getNom() == m_aretes[p]->getS1()->getNom())
+                    if(chemins[j][k]->getId() == m_aretes[p]->getS2()->getId()  && chemins[j][k+1]->getId() == m_aretes[p]->getS1()->getId())
                     {
                         S+=m_aretes[p]->getP();
                     }
@@ -408,7 +431,7 @@ void Graphe::findpaths(Sommet* src, Sommet* dst, Sommet* pointDePassage)
     centreIntermediaire(pointDePassage, chemins, idPCC);
 
 }
-
+/// FIN DE L'UTILISATION DU CODE SOURCE
 
 void Graphe::centreIntermediaire(Sommet* pointDePassage, std::vector<std::vector<Sommet*>> chemins, std::vector<int> idPCC)
 {
@@ -417,7 +440,7 @@ void Graphe::centreIntermediaire(Sommet* pointDePassage, std::vector<std::vector
     {
         for(unsigned int b=0; b<chemins[idPCC[a]].size(); b++)
         {
-            if(chemins[idPCC[a]][b]->getNom() == pointDePassage->getNom())
+            if(chemins[idPCC[a]][b]->getId() == pointDePassage->getId())
                 cpt++;
         }
     }
@@ -488,7 +511,7 @@ void Graphe::reinitSuccSom()
 bool verifTemp(std::vector<unsigned int> indArSuppr, Arete*a)
 {
     bool retour=true;
-    for(int k=0; k<indArSuppr.size(); ++k)
+    for(size_t k=0; k<indArSuppr.size(); ++k)
     {
         if(a->getIda()==indArSuppr[k])
         {
@@ -498,7 +521,7 @@ bool verifTemp(std::vector<unsigned int> indArSuppr, Arete*a)
     return retour;
 }
 
-void Graphe::enleverArete()
+void Graphe::enleverArete(int choix0)
 {
     int nbArSuppr;
     int a;
@@ -532,14 +555,17 @@ void Graphe::enleverArete()
     // Réinitialisert les successeurs dans chaque sommet
     reinitSuccSom();
     creaSuccSommet();
-    //
-    ecrire_som();
+    ecrire_som(choix0);
 
     DFS();
 
+    if(choix0!=5)
+    {
     centreDeg();
     centreDegNormal();
     vecteurPropre();
+
+
     if(m_connexe)
     {
         centreProxNorm();
@@ -561,6 +587,8 @@ void Graphe::enleverArete()
         std::cout<<"Centralite intermediaire Normalisee : initiale = "<<m_tousInd[i][7]<<" finale : "<<m_sommets[i]->getIntermediaireNorm()<<std::endl;
     }
     std::cout<<std::endl;
+    }
+
     if(m_connexe)
     {
 
@@ -596,7 +624,7 @@ void Graphe::centreAvSuppr()
 
 }
 
-void Graphe::DFS()
+void Graphe::DFS()  /// SOURCE CODE MADAME PALASI
 {
     bool connexe=true;
     /// déclaration de la pile
