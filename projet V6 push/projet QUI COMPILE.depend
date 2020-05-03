@@ -439,7 +439,7 @@
 	"arc.h"
 	<vector>
 
-1588437073 source:c:\users\matthieu petit\desktop\projet v4 push\arc.cpp
+1588507166 source:c:\users\matthieu petit\desktop\projet v4 push\arc.cpp
 	<iostream>
 	<fstream>
 	"sommet.h"
@@ -447,12 +447,12 @@
 	"arc.h"
 	<vector>
 
-1588433382 c:\users\matthieu petit\desktop\projet v4 push\sommet.h
+1588507637 c:\users\matthieu petit\desktop\projet v4 push\sommet.h
 	<vector>
 	"svgfile.h"
 	<map>
 
-1588269212 c:\users\matthieu petit\desktop\projet v4 push\svgfile.h
+1588504606 c:\users\matthieu petit\desktop\projet v4 push\svgfile.h
 	<string>
 	<fstream>
 	<set>
@@ -463,7 +463,7 @@
 	<vector>
 	"svgfile.h"
 
-1588437366 source:c:\users\matthieu petit\desktop\projet v4 push\graphe.cpp
+1588517552 source:c:\users\matthieu petit\desktop\projet v4 push\graphe.cpp
 	<iostream>
 	<fstream>
 	"graphe.h"
@@ -471,9 +471,8 @@
 	<string>
 	<algorithm>
 	"arc.h"
-	<vector>
 
-1588433382 c:\users\matthieu petit\desktop\projet v4 push\graphe.h
+1588512288 c:\users\matthieu petit\desktop\projet v4 push\graphe.h
 	<vector>
 	<fstream>
 	"sommet.h"
@@ -482,8 +481,9 @@
 	"svgfile.h"
 	<math.h>
 	<queue>
+	<stack>
 
-1588435885 source:c:\users\matthieu petit\desktop\projet v4 push\main.cpp
+1588517046 source:c:\users\matthieu petit\desktop\projet v4 push\main.cpp
 	<iostream>
 	<fstream>
 	"sommet.h"
@@ -491,19 +491,19 @@
 	<string>
 	"svgfile.h"
 
-1588433382 source:c:\users\matthieu petit\desktop\projet v4 push\sommet.cpp
+1588511763 source:c:\users\matthieu petit\desktop\projet v4 push\sommet.cpp
 	<iostream>
 	"sommet.h"
 	<string>
 	<vector>
 	<algorithm>
 
-1588269212 source:c:\users\matthieu petit\desktop\projet v4 push\svgfile.cpp
+1588504606 source:c:\users\matthieu petit\desktop\projet v4 push\svgfile.cpp
 	"svgfile.h"
 	<iostream>
 	<sstream>
 
-1588437074 source:c:\users\v_ero\desktop\projet v6\arc.cpp
+1588507168 source:c:\users\v_ero\desktop\projet v6 push\arc.cpp
 	<iostream>
 	<fstream>
 	"sommet.h"
@@ -511,23 +511,28 @@
 	"arc.h"
 	<vector>
 
-1588433384 c:\users\v_ero\desktop\projet v6\sommet.h
+1588518637 c:\users\v_ero\desktop\projet v6 push\sommet.h
 	<vector>
 	"svgfile.h"
 	<map>
 
-1588269212 c:\users\v_ero\desktop\projet v6\svgfile.h
+1588504608 c:\users\v_ero\desktop\projet v6 push\svgfile.h
 	<string>
 	<fstream>
 	<set>
 
-1588437074 c:\users\v_ero\desktop\projet v6\arc.h
+1588437074 c:\users\v_ero\desktop\projet v6 push\arc.h
 	"sommet.h"
 	<string>
 	<vector>
 	"svgfile.h"
 
-1588435886 source:c:\users\v_ero\desktop\projet v6\main.cpp
+1588504608 source:c:\users\v_ero\desktop\projet v6 push\svgfile.cpp
+	"svgfile.h"
+	<iostream>
+	<sstream>
+
+1588518637 source:c:\users\v_ero\desktop\projet v6 push\main.cpp
 	<iostream>
 	<fstream>
 	"sommet.h"
@@ -535,7 +540,7 @@
 	<string>
 	"svgfile.h"
 
-1588433384 c:\users\v_ero\desktop\projet v6\graphe.h
+1588518637 c:\users\v_ero\desktop\projet v6 push\graphe.h
 	<vector>
 	<fstream>
 	"sommet.h"
@@ -544,16 +549,12 @@
 	"svgfile.h"
 	<math.h>
 	<queue>
+	<stack>
 
-1588433384 source:c:\users\v_ero\desktop\projet v6\sommet.cpp
+1588518637 source:c:\users\v_ero\desktop\projet v6 push\sommet.cpp
 	<iostream>
 	"sommet.h"
 	<string>
 	<vector>
 	<algorithm>
-
-1588269212 source:c:\users\v_ero\desktop\projet v6\svgfile.cpp
-	"svgfile.h"
-	<iostream>
-	<sstream>
 

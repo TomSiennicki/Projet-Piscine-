@@ -8,7 +8,7 @@
 #include "svgfile.h"
 #include <math.h>
 #include <queue>
-
+#include <stack>
 class Graphe
 {
 protected :
@@ -18,12 +18,13 @@ protected :
     int m_taille;
     std::vector<Arete*> m_aretes;
     std::vector<std::vector<float>>m_tousInd;
+    bool m_connexe;
     ///std::vector<std::vector<Sommet>> m_chemins;
 public :
     Graphe();
     Graphe(std::string nom_fich);
     void ecrire_som();
-    void afficher_gr(Svgfile&svg);
+    void afficher_gr(Svgfile&svg, int choix);
     void ponderation(std::string nom_fich);
     int getOrdre();
     void creaSuccSommet();
@@ -48,6 +49,9 @@ public :
     void enleverArete();
     void centreAvSuppr();
     void reinitSuccSom();
+    //std::vector<int> DFS(int num_s0)const;
+    void afficher_parcours(const std::vector<int>& arbre);
+    void DFS();
 };
 
 #endif // GRAPHE_H_INCLUDED

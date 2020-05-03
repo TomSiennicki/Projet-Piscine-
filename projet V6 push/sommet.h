@@ -22,11 +22,14 @@ class Sommet
         float m_intermediaire;
         float m_intermediaireNorm;
         float m_idPCC;
+        int m_couleur;
+        Sommet*m_pere;
+
     public :
         Sommet(int id, char nom, int x, int y);
         void ecrire_som();
         int getId();
-        void afficher_som(Svgfile&svg);
+        void afficher_som(Svgfile&svg, int choix);
         int getx();
         int gety();
         char getNom();
@@ -54,6 +57,11 @@ class Sommet
         float getIntermediaireNorm();
         void setIntermediaireNorm(float interm);
         void reinitSucc();
+        int getCouleur();
+        void setCouleur(int c);
+        Sommet* getPere();
+        void setPere(Sommet* s);
+        void affichSucc();
 };
 
 

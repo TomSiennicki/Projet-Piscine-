@@ -21,6 +21,7 @@ void Arete::ecrire_ar()
 void Arete::afficher_ar(Svgfile&svg)
 {
     svg.addLine(m_s1->getx()*100, m_s1->gety()*100, m_s2->getx()*100, m_s2->gety()*100, "black");
+
 }
 
 void Arete::setP(float p)

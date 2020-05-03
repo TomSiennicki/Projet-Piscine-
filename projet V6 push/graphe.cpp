@@ -5,7 +5,7 @@
 #include <string>
 #include <algorithm>
 #include "arc.h"
-#include <vector>
+
 
 Graphe::Graphe()
 {
@@ -80,15 +80,15 @@ void Graphe::ecrire_som()
     }
 }
 
-void Graphe::afficher_gr(Svgfile&svg)
+void Graphe::afficher_gr(Svgfile&svg, int choix)
 {
-    for(unsigned int i=0; i<m_sommets.size(); i++)
-    {
-        m_sommets[i]->afficher_som(svg);
-    }
     for(unsigned int k=0; k<m_aretes.size(); k++)
     {
         m_aretes[k]->afficher_ar(svg);
+    }
+    for(unsigned int i=0; i<m_sommets.size(); i++)
+    {
+        m_sommets[i]->afficher_som(svg, choix);
     }
 }
 
@@ -118,6 +118,12 @@ void Graphe::creaSuccSommet()
                 m_sommets[i]->setSucc(m_aretes[j]->getS1(), m_aretes[j]->getP());
             }
         }
+        /*std::cout<<m_sommets[i]->getNom()<<" : ";
+        for(std::map<Sommet*, float>::iterator succ=m_sommets[i]->getSucc().begin(); succ!=m_sommets[i]->getSucc().end(); ++succ)
+        {
+            std::cout<<(succ->first)->getNom();
+        }
+        std::cout<<m_sommets[i]->getNom()<<std::endl;*/
     }
 
 }
@@ -125,18 +131,20 @@ void Graphe::creaSuccSommet()
 
 void Graphe::centreDeg()
 {
+    std::cout << "Centralite Degre : "<<std::endl;
     for(unsigned int i=0; i<m_sommets.size(); ++i)
     {
-        std::cout << "Centrabilite Degre Sommet " << m_sommets[i]->getNom() << " : " << m_sommets[i]->degre() << std::endl;
+        std::cout << "Sommet " << m_sommets[i]->getNom() << " : " << m_sommets[i]->degre() << std::endl;
     }
     std::cout << std::endl;
 }
 
 void Graphe::centreDegNormal()
 {
+    std::cout << "Centralite Degre normalise : "<<std::endl;
     for(unsigned int i=0; i<m_sommets.size(); ++i)
     {
-        std::cout << "Centrabilite Degre Normalise Sommet " << m_sommets[i]->getNom() << " : " << (m_sommets[i]->degre())/((m_ordre)-1) << std::endl;
+        std::cout << "Sommet " << m_sommets[i]->getNom() << " : " << (m_sommets[i]->degre())/((m_ordre)-1) << std::endl;
         m_sommets[i]->setDegreNormal((m_sommets[i]->degre())/((m_ordre)-1));
     }
     std::cout << std::endl;
@@ -176,20 +184,20 @@ void Graphe::vecteurPropre()
 
 void Graphe::affichageVecteurPropre()
 {
-    std::cout<<"Vecteur Propre "<<std::endl;
+    std::cout<<"Vecteur Propre : "<<std::endl;
     for(unsigned int i =0; i<m_sommets.size(); i++)
     {
-        std::cout<<"sommet "<<m_sommets[i]->getNom()<<" : "<<m_sommets[i]->getIndice()<<std::endl;
+        std::cout<<"Sommet "<<m_sommets[i]->getNom()<<" : "<<m_sommets[i]->getIndice()<<std::endl;
     }
     std::cout << std::endl;
 }
 
 void Graphe::affichageVecteurPropreNormal()
 {
-    std::cout<<"Vecteur Propre Normalise"<<std::endl;
+    std::cout<<"Vecteur Propre Normalise : "<<std::endl;
     for(unsigned int i =0; i<m_sommets.size(); i++)
     {
-        std::cout<<"sommet "<<m_sommets[i]->getNom()<<" : "<<m_sommets[i]->getIndice() / (m_ordre -1)<<std::endl;
+        std::cout<<"Sommet "<<m_sommets[i]->getNom()<<" : "<<m_sommets[i]->getIndice() / (m_ordre -1)<<std::endl;
     }
     std::cout << std::endl;
 }
@@ -231,27 +239,30 @@ bool Graphe::verifPoids()
     }
     else
     {
-
         return true;
     }
 }
 
 void Graphe::centreProxNorm()
 {
+    std::cout << "Centralite de proximite normalisee : "<<std::endl;
     for(unsigned int i=0; i<m_sommets.size(); i++)
     {
         dijkstra(m_sommets[i]);
         std::cout << "Sommet " << m_sommets[i]->getNom() << " : " << (m_sommets[i]->getProxNorm()) << std::endl;
     }
+    std::cout << std::endl;
 }
 
 void Graphe::centreProximite()
 {
+    std::cout << "Centralite de proximite : "<<std::endl;
     for(unsigned int i=0; i<m_sommets.size(); i++)
     {
         dijkstra(m_sommets[i]);
         std::cout << "Sommet " << m_sommets[i]->getNom() << " : " << (m_sommets[i]->getProximite()) << std::endl;
     }
+    std::cout << std::endl;
 }
 
 void Graphe::sauvegarde()
@@ -265,14 +276,18 @@ void Graphe::sauvegarde()
             flux<<m_sommets[i]->getId();
             flux<<" ";
             flux<<m_sommets[i]->degre();///degré normalisé
-            flux<<"-";
+            flux<<" ";
             flux<<(m_sommets[i]->degre())/((m_ordre)-1);///degré non normalisé
             flux<<" ";
             flux<<m_sommets[i]->getIndice();/// vecteur propre
             flux<<" ";
             flux<<m_sommets[i]->getProximite();///proximité
-            flux<<"-";
-            flux<<m_sommets[i]->getProxNorm()<<std::endl;///proximité Normalisée
+            flux<<" ";
+            flux<<m_sommets[i]->getProxNorm();///proximité Normalisée
+            flux<<" ";
+            flux<<m_sommets[i]->getIntermediaire();///intermediarité
+            flux<<" ";
+            flux<<m_sommets[i]->getIntermediaireNorm()<<std::endl;///intermediarité normalisée
         }
 
     }
@@ -380,7 +395,6 @@ void Graphe::findpaths(Sommet* src, Sommet* dst, Sommet* pointDePassage)
         S=0;
     }
 
-    //std::cout <<"nbr chemins : "<<i<< std::endl;
     mini=*min_element(poids.begin(), poids.end());
     for(unsigned int j =0; j<poids.size(); j++)
     {
@@ -407,7 +421,6 @@ void Graphe::centreIntermediaire(Sommet* pointDePassage, std::vector<std::vector
                 cpt++;
         }
     }
-    ///cpt+=pointDePassage->getIntermediaire();
     pointDePassage->setIntermediaire(pointDePassage->getIntermediaire()+(cpt/idPCC.size()));
 }
 
@@ -444,9 +457,10 @@ void Graphe::affich()
 void Graphe::intermediaire()
 {
     affich();
+    std::cout <<"Centralite intermediaire :"<< std::endl;
     for(unsigned int i=0; i<m_sommets.size(); ++i)
     {
-        std::cout << m_sommets[i]->getNom() <<" : "<< m_sommets[i]->getIntermediaire()<< std::endl;
+        std::cout <<"Sommet "<< m_sommets[i]->getNom() <<" : "<< m_sommets[i]->getIntermediaire()<< std::endl;
     }
 
 }
@@ -454,10 +468,11 @@ void Graphe::intermediaire()
 void Graphe::intermediaireNorm()
 {
     affich();
+    std::cout <<"Centralite intermediaire normalisee :"<< std::endl;
     for(unsigned int i=0; i<m_sommets.size(); ++i)
     {
         m_sommets[i]->setIntermediaireNorm((2*(m_sommets[i]->getIntermediaire()))/(pow(m_ordre,2) -(3*m_ordre) +2));
-        std::cout << m_sommets[i]->getNom() <<" : "<< m_sommets[i]->getIntermediaireNorm()<< std::endl;
+        std::cout <<"Sommet "<< m_sommets[i]->getNom() <<" : "<< m_sommets[i]->getIntermediaireNorm()<< std::endl;
     }
 
 }
@@ -470,11 +485,25 @@ void Graphe::reinitSuccSom()
     }
 }
 
+bool verifTemp(std::vector<unsigned int> indArSuppr, Arete*a)
+{
+    bool retour=true;
+    for(int k=0; k<indArSuppr.size(); ++k)
+    {
+        if(a->getIda()==indArSuppr[k])
+        {
+            retour = false;
+        }
+    }
+    return retour;
+}
+
 void Graphe::enleverArete()
 {
     int nbArSuppr;
     int a;
     std::vector<unsigned int> indArSuppr;
+    std::vector<Arete*> temp;
     std::cout <<"Combien d'aretes voulez vous supprimer ?"<< std::endl;
     std::cin >>nbArSuppr;
 
@@ -486,27 +515,37 @@ void Graphe::enleverArete()
         m_taille--;
     }
 
-    for(std::vector<Arete*>::iterator it1=m_aretes.begin(); it1!=m_aretes.end(); it1++)
+    for(unsigned int p=0; p<m_aretes.size(); ++p)
     {
-        for(unsigned int p=0; p<indArSuppr.size();++p)
-        {
-            if((*it1)->getIda() == indArSuppr[p])
+            if(verifTemp(indArSuppr, m_aretes[p]))
             {
-                m_aretes.erase(it1);
+                temp.push_back(m_aretes[p]);
             }
-        }
     }
 
+    m_aretes.clear();
+
+    for(unsigned int p=0; p<temp.size(); ++p)
+    {
+        m_aretes.push_back(temp[p]);
+    }
+    // Réinitialisert les successeurs dans chaque sommet
     reinitSuccSom();
     creaSuccSommet();
+    //
     ecrire_som();
+
+    DFS();
 
     centreDeg();
     centreDegNormal();
-    centreProximite();
-    centreProxNorm();
     vecteurPropre();
-    affich();
+    if(m_connexe)
+    {
+        centreProxNorm();
+        centreProximite();
+        affich();
+    }
 
     ///affichage
     for(unsigned int i=0; i<m_sommets.size(); ++i)
@@ -521,9 +560,17 @@ void Graphe::enleverArete()
         std::cout<<"Centralite intermediaire : initiale = "<<m_tousInd[i][6]<<" finale : "<<m_sommets[i]->getIntermediaire()<<std::endl;
         std::cout<<"Centralite intermediaire Normalisee : initiale = "<<m_tousInd[i][7]<<" finale : "<<m_sommets[i]->getIntermediaireNorm()<<std::endl;
     }
+    std::cout<<std::endl;
+    if(m_connexe)
+    {
+
+        std::cout<<"Le graphe est encore connexe"<<std::endl;
+    }
+    else
+    {
+        std::cout<<"Le graphe n'est plus connexe"<<std::endl;
+    }
 }
-
-
 
 void Graphe::centreAvSuppr()
 {
@@ -545,5 +592,60 @@ void Graphe::centreAvSuppr()
         m_tousInd[i].push_back(m_sommets[i]->getProxNorm());
         m_tousInd[i].push_back(m_sommets[i]->getIntermediaire());
         m_tousInd[i].push_back(m_sommets[i]->getIntermediaireNorm());
+    }
+
+}
+
+void Graphe::DFS()
+{
+    bool connexe=true;
+    /// déclaration de la pile
+    std::stack<Sommet*> pile;
+
+    ///étape initiale : on enpile et on marque le sommet initial
+    for(unsigned int i=0; i<m_sommets.size(); ++i)
+    {
+        m_sommets[i]->setCouleur(0);
+        m_sommets[i]->setPere(nullptr);
+    }
+    pile.push(m_sommets[0]);
+    m_sommets[0]->setCouleur(1);
+    Sommet *s;
+
+    ///tant que la pile n'est pas vide
+    while(!pile.empty())
+    {
+
+        ///on dépile le prochain sommet
+        s = pile.top();
+        pile.pop();
+
+        ///pour chaque successeur du sommet dépilé
+        for(auto succ : s->getSucc())
+        {
+            if((succ.first)->getCouleur()==0)     ///s'il n'est pas marqué
+            {
+                pile.push(succ.first);
+                (succ.first)->setCouleur(1);
+                (succ.first)->setPere(s);
+            }
+        }
+    }
+
+    for(unsigned int i=0; i<m_sommets.size(); ++i)
+    {
+        if(m_sommets[i]->getCouleur()==0)
+        {
+            connexe = false;
+        }
+    }
+
+    if(connexe)
+    {
+        m_connexe=true;
+    }
+    else
+    {
+        m_connexe=false;
     }
 }
